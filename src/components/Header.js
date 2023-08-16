@@ -1,7 +1,7 @@
 import './Header.css'
 import {Link, NavLink} from 'react-router-dom'
 import Logo from "../assets/logo.png"
-import { UseSelector, useSelector } from 'react-redux/es/hooks/useSelector'
+import { useSelector } from 'react-redux/es/hooks/useSelector'
 
 export const Header = () => {
   const products = useSelector(state=> state.cartState.cartList)
